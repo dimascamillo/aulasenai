@@ -1,3 +1,6 @@
+#sass
+./public/assets/scss/style.scss
+
 # Logs
 logs
 *.log

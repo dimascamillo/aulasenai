@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 01 - SENAI</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header__logo">
+        <img src="img/logo_firjan_senai.gif" alt="">
+      </div>
+    </header>
+
+    <main>
+      <h2 class="form__titulo"> 
+        Escreva uma mensagem pelo formulário abaixo
+      </h2>
+
+      <form action="#">
+        <div class="form__container">
+          <label class="form__label" for="nome">Nome *</label>
+          <input class="form__input--nome" type="text" name="nome" id="nome">
+        </div>
+
+        <div class="form__container">
+          <label class="form__label" for="nome">E-mail *</label>
+          <input class="form__input--email" type="email" name="email" id="email">
+        </div>
+
+        <div class="form__container--btn">
+          <button class="form__btn" type="submit">Enviar</button>
+        </div>
+      </form>
+    </main>
+  </div>
+
+  <script src="assets/controller/validacaoForm.js"></script>
+</body>
+</html>

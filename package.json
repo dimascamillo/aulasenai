@@ -1,0 +1,23 @@
+{
+  "name": "aulasenai",
+  "version": "1.0.0",
+  "description": "Aulas desenvolvidas para o SENAI",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server --open=public/index.html",
+    "sass": "node-sass --watch ./public/assets/scss/style.scss ./public/assets/css/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimascamillo/aulasenai.git"
+  },
+  "author": "Dimas Camillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimascamillo/aulasenai/issues"
+  },
+  "homepage": "https://github.com/dimascamillo/aulasenai#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
