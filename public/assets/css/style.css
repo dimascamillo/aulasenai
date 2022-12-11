@@ -27,6 +27,12 @@ button {
 .disable {
   cursor: not-allowed !important; }
 
+.sucess {
+  color: #10a810; }
+
+.error {
+  color: #d71515; }
+
 header {
   display: flex;
   justify-content: center; }
@@ -57,11 +63,11 @@ main {
         width: 100%;
         font-size: 15px;
         font-weight: 300; }
-      main form .form__container .form__input {
+      main form .form__container .form__input--nome, main form .form__container .form__input--email {
         width: 100%;
         margin-top: 5px;
         padding: 5px; }
-        main form .form__container .form__input:focus {
+        main form .form__container .form__input--nome:focus, main form .form__container .form__input--email:focus {
           border: 1px solid #00abe5;
           outline: none; }
     main form .form__container--btn {

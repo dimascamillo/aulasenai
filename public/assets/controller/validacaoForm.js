@@ -9,7 +9,7 @@ function validaForm() {
   btnEnviar.addEventListener("click", (e) => {
     e.preventDefault();
 
-    if (formInputNome.value == "" && formInputEmail.value == "") {
+    if (formInputNome.value == "" || formInputEmail.value == "") {
       mensagemError();
     } else if (!formInputNome.value == "" && !formInputEmail.value == "") {
       mensagemSucesso();
@@ -21,12 +21,15 @@ function mensagemError() {
   msg.innerHTML = "Por favor preencha todos os campos!";
   form.appendChild(msg);
   btnEnviar.classList.add('disable')
+  msg.classList.add('error')
 }
 
 function mensagemSucesso() {
   msg.innerHTML = "Formulario enviado com sucesso!";
   form.appendChild(msg);
   btnEnviar.classList.remove('disable')
+  msg.classList.remove('error')
+  msg.classList.add('sucess')
 }
 
 validaForm();
