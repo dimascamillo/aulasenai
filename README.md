@@ -12,4 +12,3 @@ Aulas desenvolvidas para o SENAI
 
 ### Regras de Negócio
 - [] Não será possível enviar o formulário caso algum campo esteja vazio.
-- [] Tratar o erro do required
