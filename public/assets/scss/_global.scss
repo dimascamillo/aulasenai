@@ -40,7 +40,13 @@ $primary: #00abe5;
   cursor: not-allowed !important;
 }
 
-.sucess {
+.success, .error {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.success {
   color: rgb(16, 168, 16);
 }
 

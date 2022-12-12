@@ -1,16 +1,11 @@
 header {
   display: flex;
   justify-content: center;
+  margin-top: 90px;
 
-  .header__logo {
-    margin-top: 40px;
-    width: 260px;
-    height: 30px;
-    text-align: center;
-
-    img {
-      width: 100%;
-      object-fit: cover;
-    }
+  .header__titulo {
+    font-size: 20px;
+    color:$primary;
+    font-weight: 600;
   }
 }

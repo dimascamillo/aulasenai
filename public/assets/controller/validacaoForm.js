@@ -29,7 +29,7 @@ function mensagemSucesso() {
   form.appendChild(msg);
   btnEnviar.classList.remove('disable')
   msg.classList.remove('error')
-  msg.classList.add('sucess')
+  msg.classList.add('success')
 }
 
 validaForm();
